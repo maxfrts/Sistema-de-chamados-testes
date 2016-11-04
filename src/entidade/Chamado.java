@@ -45,6 +45,10 @@ public class Chamado implements Serializable {
     private String operacao;
     private double duracaoOperacao;
 
+    public Chamado() {
+        
+    }
+    
     //construtor para problemaRede
     public Chamado(Integer codigo, String titulo, String descricao, int prioridade, Tecnico tecnico,
             ClienteEmpresa cliente, String sistemaOperacional, String versaoSO, String tipoConexao, String enderecoRede) {
