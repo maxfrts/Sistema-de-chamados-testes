@@ -23,6 +23,8 @@ public class RegistroChamado implements Serializable {
     private Tecnico tecnico;
     private Chamado chamado;
 
+    public RegistroChamado() {}
+    
     public RegistroChamado(String assunto, Chamado chamado, Tecnico tecnico) {
         Calendar c = Calendar.getInstance();
         this.hora = DateFormat.getTimeInstance().format(c.getTime());

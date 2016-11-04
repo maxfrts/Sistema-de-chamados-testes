@@ -17,6 +17,8 @@ public class Pessoa implements Serializable{
     private String nome;
     private long telefone;
 
+    public Pessoa() {}
+    
     public Pessoa(String nome, long telefone) {
         this.nome = nome;
         this.telefone = telefone;
